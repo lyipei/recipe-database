@@ -18,9 +18,18 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Tools Used:
+- Python 3.13+ - The main programming language used to develop the recipe database software.
+- SQLite3 - A lightweight, file-based database system used to store and manage rercipe data. 
+- Visual Studio Code - Used as the code editor for writing and debugging Python scripts.
 
-{Describe the programming language that you used and any libraries.}
+Proggramming Language and Libraries:
+- Python - Chosen for its simplicity, readability, and strong support for database operations.
+- sqlite3  (Python standard library) - Provides functions to create, read, and delete data from the SQLite database.
+
+Note:
+- The software is cross platform and can run on Windows, macOS, or Linux without additional database installation, because SQLite is embedded.
+- Python scripts handle database creation, data insertion, updates, deletions, and queries.
 
 # Useful Websites
 
