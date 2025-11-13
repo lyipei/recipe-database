@@ -10,7 +10,7 @@ Users interact with the program via a menu-driven command-line interface. The pr
 
 The project uses SQLite, a lightweight, embedded relational database stored in a single file. 
 
-## Table structure
+### Table structure
 - recipes table: 
 1. id - unique recipe ID
 2. name - recipe name
