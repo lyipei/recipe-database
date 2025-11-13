@@ -35,15 +35,13 @@ Note:
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [TutorialsPoint](https://www.tutorialspoint.com/sqlite/sqlite_python.htm)
+- [Python SQLite](https://www.geeksforgeeks.org/python/python-sqlite/)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- Add search functionality by name or ingredient
+- Add user authentication for personal recipe collections
+- Expand the database with additional tables such as 'Categories' or 'Rating'
