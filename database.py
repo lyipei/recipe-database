@@ -83,7 +83,7 @@ def edit_recipe():
                 UPDATE recipes
                 SET name = ?, ingredients = ?, instructions = ?
                 WHERE id = ? ''',
-                (name if name else row [1], ingredients if ingredients else row [2], instructions if instructions else row [3], recipe_id))
+                (name if name else row [0], ingredients if ingredients else row [1], instructions if instructions else row [2], recipe_id))
     conn.commit()
     print(f'Recipe updated SUCCESSFULY!')
     
@@ -113,7 +113,7 @@ while True:
         print("Exiting the program. Goodbye!")
         break
     else:
-        print("Involid choice. Please try again.")
+        print("Invalid choice. Please try again.")
 
 conn.close()
     
